@@ -10,6 +10,7 @@ h1 {
 }
 section {
   display: flex;
+  margin-bottom: 60px;
 }
 .half-width {
   width: 90%;
@@ -23,11 +24,24 @@ section {
   text-decoration: none;
   background-image: linear-gradient(rgb(125, 192, 209), rgb(240, 179, 189));
   border-radius: 5px;
-  color: rgb(252, 246, 246);
+  color: rgb(255, 255, 255);
   font-weight: 700;
   padding: 10px 40px;
 }
 .top-banner {
   background-image: url(my.jpg/mc.jpg);
   background-repeat: no-repeat;
+}
+.dream-big {
+  background-image: url(my.jpg/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.new {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  border-radius: 5px;
+  color: rgb(253, 255, 255);
+  font-weight: 700;
+  padding: 10px 40px;
 }
