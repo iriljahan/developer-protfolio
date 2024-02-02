@@ -5,10 +5,13 @@ body {
 h1 {
   font-size: 50px;
 }
+h2 {
+  font-size: 40px;
+}
 .name {
   color: palevioletred;
 }
-section {
+.flexible-content {
   display: flex;
   margin-bottom: 60px;
 }
@@ -44,4 +47,35 @@ section {
   color: rgb(253, 255, 255);
   font-weight: 700;
   padding: 10px 40px;
+}
+.experience-item {
+  width: 40%;
+  padding-left: 20px;
+  box-shadow: 10px 10px 40px gray;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 10px;
+}
+.nu {
+  background-image: url(my.jpg/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.namecl {
+  color: rgb(241, 128, 35);
+}
+#web-developer {
+  border-left: 7px solid tomato;
+  background-image: linear-gradient(blue cyan);
+  border-image-slice: 1;
+}
+
+#full-stack {
+  border-left: 7px solid tomato;
+  border-image: linear-gradient(rgb(8, 8, 206) cyan);
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
+  background-color: rgb(255, 208, 180);
 }
